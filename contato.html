@@ -1,0 +1,81 @@
+<head>
+<link rel="stylesheet" href="CSS/style.css">
+
+<style>
+
+body{
+        background-color: lightpink;
+        }
+
+        .botao {
+        background-color: coral;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0,5s;
+    color: darkmagenta;
+    cursor: pointer;
+    font-size: 15px;
+       }
+
+       .botao:hover {
+        background-color: darkmagenta;
+        color: coral;
+       }
+
+
+</style>
+
+</head>
+
+
+<body>
+
+<h1 style="color: darkslateblue;">Entre em contato comigo!</h1>
+
+<p>Telefone: (81)98162-7808</p>
+<p>E-mail: sdelotus@gmail.com</p>
+
+<hr>
+
+<h3 style="color: darkslateblue;">Envie uma mensagem:</h3>
+
+<form>
+    
+<label for="nome">Nome:</label>
+<input type="text" id="nome"></input>
+
+<br>
+
+<label for="email">Seu e-mail:</label>
+<input type="email" id="email"></input>
+
+<br>
+
+<label for="telefone">Seu telefone para contato:</label>
+<input type="number" id="número"></input>
+
+<br>
+
+<label for="serv">Qual assunto a ser abordado?</label>
+<select id="opcoes">
+    <option value="1">Músicas</option>
+    <option value="2">Poesias</option>
+    <option value="3">Filmes</option>
+    <option value="4">Programação</option>
+    <option value="5">Leitura de Tarô</option>
+</select>
+
+<br>
+
+<label for="mensagem">Escreva sua mensagem:</label> <br>
+<textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+<br>
+<br>
+
+<input type="submit" class="botao" value="Enviar">
+
+</form>
+
+</body>
